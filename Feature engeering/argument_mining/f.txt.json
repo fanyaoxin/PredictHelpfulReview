@@ -1,0 +1,1420 @@
+{
+  "sentences": [
+    {
+      "index": 0,
+      "parse": "(ROOT\n  (FRAG\n    (PP\n      (ADVP (RB definitely))\n      (IN worth)\n      (NP\n        (NP (PRP it))\n        (SBAR\n          (S\n            (VP (TO to)\n              (VP (VB drive)\n                (PRT (RP off))\n                (NP (DT the) (NN strip)\n                  (S\n                    (VP (TO to)\n                      (VP (VB eat)\n                        (NP\n                          (NP (JJ good) (NN food))\n                          (PP (IN for)\n                            (NP (JJ good) (NNS prices))))\n                        (PP (VBN compared)\n                          (PP (TO to)\n                            (S\n                              (VP (VBG being)\n                                (NP\n                                  (NP (JJ lazy) (NN eating))\n                                  (PP\n                                    (PP (IN on)\n                                      (NP (DT the) (NN strip)))\n                                    (CC or)\n                                    (PP (IN in)\n                                      (NP (PRP$ your) (NN hotel)))))))))))))))))))\n    (. .)))",
+      "basicDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "drive"
+        },
+        {
+          "dep": "advmod",
+          "governor": 5,
+          "governorGloss": "drive",
+          "dependent": 1,
+          "dependentGloss": "definitely"
+        },
+        {
+          "dep": "mark",
+          "governor": 5,
+          "governorGloss": "drive",
+          "dependent": 2,
+          "dependentGloss": "worth"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "drive",
+          "dependent": 3,
+          "dependentGloss": "it"
+        },
+        {
+          "dep": "mark",
+          "governor": 5,
+          "governorGloss": "drive",
+          "dependent": 4,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "compound:prt",
+          "governor": 5,
+          "governorGloss": "drive",
+          "dependent": 6,
+          "dependentGloss": "off"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "strip",
+          "dependent": 7,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 5,
+          "governorGloss": "drive",
+          "dependent": 8,
+          "dependentGloss": "strip"
+        },
+        {
+          "dep": "mark",
+          "governor": 10,
+          "governorGloss": "eat",
+          "dependent": 9,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "advcl",
+          "governor": 5,
+          "governorGloss": "drive",
+          "dependent": 10,
+          "dependentGloss": "eat"
+        },
+        {
+          "dep": "amod",
+          "governor": 12,
+          "governorGloss": "food",
+          "dependent": 11,
+          "dependentGloss": "good"
+        },
+        {
+          "dep": "dobj",
+          "governor": 10,
+          "governorGloss": "eat",
+          "dependent": 12,
+          "dependentGloss": "food"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "prices",
+          "dependent": 13,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "amod",
+          "governor": 15,
+          "governorGloss": "prices",
+          "dependent": 14,
+          "dependentGloss": "good"
+        },
+        {
+          "dep": "nmod",
+          "governor": 10,
+          "governorGloss": "eat",
+          "dependent": 15,
+          "dependentGloss": "prices"
+        },
+        {
+          "dep": "dep",
+          "governor": 10,
+          "governorGloss": "eat",
+          "dependent": 16,
+          "dependentGloss": "compared"
+        },
+        {
+          "dep": "mark",
+          "governor": 20,
+          "governorGloss": "eating",
+          "dependent": 17,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "cop",
+          "governor": 20,
+          "governorGloss": "eating",
+          "dependent": 18,
+          "dependentGloss": "being"
+        },
+        {
+          "dep": "amod",
+          "governor": 20,
+          "governorGloss": "eating",
+          "dependent": 19,
+          "dependentGloss": "lazy"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 16,
+          "governorGloss": "compared",
+          "dependent": 20,
+          "dependentGloss": "eating"
+        },
+        {
+          "dep": "case",
+          "governor": 23,
+          "governorGloss": "strip",
+          "dependent": 21,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "det",
+          "governor": 23,
+          "governorGloss": "strip",
+          "dependent": 22,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod",
+          "governor": 20,
+          "governorGloss": "eating",
+          "dependent": 23,
+          "dependentGloss": "strip"
+        },
+        {
+          "dep": "cc",
+          "governor": 23,
+          "governorGloss": "strip",
+          "dependent": 24,
+          "dependentGloss": "or"
+        },
+        {
+          "dep": "case",
+          "governor": 27,
+          "governorGloss": "hotel",
+          "dependent": 25,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 27,
+          "governorGloss": "hotel",
+          "dependent": 26,
+          "dependentGloss": "your"
+        },
+        {
+          "dep": "conj",
+          "governor": 23,
+          "governorGloss": "strip",
+          "dependent": 27,
+          "dependentGloss": "hotel"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "drive",
+          "dependent": 28,
+          "dependentGloss": "."
+        }
+      ],
+      "enhancedDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "drive"
+        },
+        {
+          "dep": "advmod",
+          "governor": 5,
+          "governorGloss": "drive",
+          "dependent": 1,
+          "dependentGloss": "definitely"
+        },
+        {
+          "dep": "mark",
+          "governor": 5,
+          "governorGloss": "drive",
+          "dependent": 2,
+          "dependentGloss": "worth"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "drive",
+          "dependent": 3,
+          "dependentGloss": "it"
+        },
+        {
+          "dep": "mark",
+          "governor": 5,
+          "governorGloss": "drive",
+          "dependent": 4,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "compound:prt",
+          "governor": 5,
+          "governorGloss": "drive",
+          "dependent": 6,
+          "dependentGloss": "off"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "strip",
+          "dependent": 7,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 5,
+          "governorGloss": "drive",
+          "dependent": 8,
+          "dependentGloss": "strip"
+        },
+        {
+          "dep": "mark",
+          "governor": 10,
+          "governorGloss": "eat",
+          "dependent": 9,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "advcl:to",
+          "governor": 5,
+          "governorGloss": "drive",
+          "dependent": 10,
+          "dependentGloss": "eat"
+        },
+        {
+          "dep": "amod",
+          "governor": 12,
+          "governorGloss": "food",
+          "dependent": 11,
+          "dependentGloss": "good"
+        },
+        {
+          "dep": "dobj",
+          "governor": 10,
+          "governorGloss": "eat",
+          "dependent": 12,
+          "dependentGloss": "food"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "prices",
+          "dependent": 13,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "amod",
+          "governor": 15,
+          "governorGloss": "prices",
+          "dependent": 14,
+          "dependentGloss": "good"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 10,
+          "governorGloss": "eat",
+          "dependent": 15,
+          "dependentGloss": "prices"
+        },
+        {
+          "dep": "dep",
+          "governor": 10,
+          "governorGloss": "eat",
+          "dependent": 16,
+          "dependentGloss": "compared"
+        },
+        {
+          "dep": "mark",
+          "governor": 20,
+          "governorGloss": "eating",
+          "dependent": 17,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "cop",
+          "governor": 20,
+          "governorGloss": "eating",
+          "dependent": 18,
+          "dependentGloss": "being"
+        },
+        {
+          "dep": "amod",
+          "governor": 20,
+          "governorGloss": "eating",
+          "dependent": 19,
+          "dependentGloss": "lazy"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 16,
+          "governorGloss": "compared",
+          "dependent": 20,
+          "dependentGloss": "eating"
+        },
+        {
+          "dep": "case",
+          "governor": 23,
+          "governorGloss": "strip",
+          "dependent": 21,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "det",
+          "governor": 23,
+          "governorGloss": "strip",
+          "dependent": 22,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 20,
+          "governorGloss": "eating",
+          "dependent": 23,
+          "dependentGloss": "strip"
+        },
+        {
+          "dep": "cc",
+          "governor": 23,
+          "governorGloss": "strip",
+          "dependent": 24,
+          "dependentGloss": "or"
+        },
+        {
+          "dep": "case",
+          "governor": 27,
+          "governorGloss": "hotel",
+          "dependent": 25,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 27,
+          "governorGloss": "hotel",
+          "dependent": 26,
+          "dependentGloss": "your"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 20,
+          "governorGloss": "eating",
+          "dependent": 27,
+          "dependentGloss": "hotel"
+        },
+        {
+          "dep": "conj:or",
+          "governor": 23,
+          "governorGloss": "strip",
+          "dependent": 27,
+          "dependentGloss": "hotel"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "drive",
+          "dependent": 28,
+          "dependentGloss": "."
+        }
+      ],
+      "enhancedPlusPlusDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 5,
+          "dependentGloss": "drive"
+        },
+        {
+          "dep": "advmod",
+          "governor": 5,
+          "governorGloss": "drive",
+          "dependent": 1,
+          "dependentGloss": "definitely"
+        },
+        {
+          "dep": "mark",
+          "governor": 5,
+          "governorGloss": "drive",
+          "dependent": 2,
+          "dependentGloss": "worth"
+        },
+        {
+          "dep": "nsubj",
+          "governor": 5,
+          "governorGloss": "drive",
+          "dependent": 3,
+          "dependentGloss": "it"
+        },
+        {
+          "dep": "mark",
+          "governor": 5,
+          "governorGloss": "drive",
+          "dependent": 4,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "compound:prt",
+          "governor": 5,
+          "governorGloss": "drive",
+          "dependent": 6,
+          "dependentGloss": "off"
+        },
+        {
+          "dep": "det",
+          "governor": 8,
+          "governorGloss": "strip",
+          "dependent": 7,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "dobj",
+          "governor": 5,
+          "governorGloss": "drive",
+          "dependent": 8,
+          "dependentGloss": "strip"
+        },
+        {
+          "dep": "mark",
+          "governor": 10,
+          "governorGloss": "eat",
+          "dependent": 9,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "advcl:to",
+          "governor": 5,
+          "governorGloss": "drive",
+          "dependent": 10,
+          "dependentGloss": "eat"
+        },
+        {
+          "dep": "amod",
+          "governor": 12,
+          "governorGloss": "food",
+          "dependent": 11,
+          "dependentGloss": "good"
+        },
+        {
+          "dep": "dobj",
+          "governor": 10,
+          "governorGloss": "eat",
+          "dependent": 12,
+          "dependentGloss": "food"
+        },
+        {
+          "dep": "case",
+          "governor": 15,
+          "governorGloss": "prices",
+          "dependent": 13,
+          "dependentGloss": "for"
+        },
+        {
+          "dep": "amod",
+          "governor": 15,
+          "governorGloss": "prices",
+          "dependent": 14,
+          "dependentGloss": "good"
+        },
+        {
+          "dep": "nmod:for",
+          "governor": 10,
+          "governorGloss": "eat",
+          "dependent": 15,
+          "dependentGloss": "prices"
+        },
+        {
+          "dep": "dep",
+          "governor": 10,
+          "governorGloss": "eat",
+          "dependent": 16,
+          "dependentGloss": "compared"
+        },
+        {
+          "dep": "mark",
+          "governor": 20,
+          "governorGloss": "eating",
+          "dependent": 17,
+          "dependentGloss": "to"
+        },
+        {
+          "dep": "cop",
+          "governor": 20,
+          "governorGloss": "eating",
+          "dependent": 18,
+          "dependentGloss": "being"
+        },
+        {
+          "dep": "amod",
+          "governor": 20,
+          "governorGloss": "eating",
+          "dependent": 19,
+          "dependentGloss": "lazy"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 16,
+          "governorGloss": "compared",
+          "dependent": 20,
+          "dependentGloss": "eating"
+        },
+        {
+          "dep": "xcomp",
+          "governor": 16,
+          "governorGloss": "compared",
+          "dependent": 20,
+          "dependentGloss": "eating"
+        },
+        {
+          "dep": "conj:or",
+          "governor": 20,
+          "governorGloss": "eating",
+          "dependent": 20,
+          "dependentGloss": "eating"
+        },
+        {
+          "dep": "case",
+          "governor": 23,
+          "governorGloss": "strip",
+          "dependent": 21,
+          "dependentGloss": "on"
+        },
+        {
+          "dep": "det",
+          "governor": 23,
+          "governorGloss": "strip",
+          "dependent": 22,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "nmod:on",
+          "governor": 20,
+          "governorGloss": "eating",
+          "dependent": 23,
+          "dependentGloss": "strip"
+        },
+        {
+          "dep": "cc",
+          "governor": 20,
+          "governorGloss": "eating",
+          "dependent": 24,
+          "dependentGloss": "or"
+        },
+        {
+          "dep": "case",
+          "governor": 27,
+          "governorGloss": "hotel",
+          "dependent": 25,
+          "dependentGloss": "in"
+        },
+        {
+          "dep": "nmod:poss",
+          "governor": 27,
+          "governorGloss": "hotel",
+          "dependent": 26,
+          "dependentGloss": "your"
+        },
+        {
+          "dep": "nmod:in",
+          "governor": 20,
+          "governorGloss": "eating",
+          "dependent": 27,
+          "dependentGloss": "hotel"
+        },
+        {
+          "dep": "punct",
+          "governor": 5,
+          "governorGloss": "drive",
+          "dependent": 28,
+          "dependentGloss": "."
+        }
+      ],
+      "sentimentValue": "3",
+      "sentiment": "Positive",
+      "tokens": [
+        {
+          "index": 1,
+          "word": "definitely",
+          "originalText": "definitely",
+          "lemma": "definitely",
+          "characterOffsetBegin": 0,
+          "characterOffsetEnd": 10,
+          "pos": "RB",
+          "ner": "O",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "worth",
+          "originalText": "worth",
+          "lemma": "worth",
+          "characterOffsetBegin": 11,
+          "characterOffsetEnd": 16,
+          "pos": "IN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "it",
+          "originalText": "it",
+          "lemma": "it",
+          "characterOffsetBegin": 17,
+          "characterOffsetEnd": 19,
+          "pos": "PRP",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 20,
+          "characterOffsetEnd": 22,
+          "pos": "TO",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "drive",
+          "originalText": "drive",
+          "lemma": "drive",
+          "characterOffsetBegin": 23,
+          "characterOffsetEnd": 28,
+          "pos": "VB",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "off",
+          "originalText": "off",
+          "lemma": "off",
+          "characterOffsetBegin": 29,
+          "characterOffsetEnd": 32,
+          "pos": "RP",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 33,
+          "characterOffsetEnd": 36,
+          "pos": "DT",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 8,
+          "word": "strip",
+          "originalText": "strip",
+          "lemma": "strip",
+          "characterOffsetBegin": 37,
+          "characterOffsetEnd": 42,
+          "pos": "NN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 9,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 43,
+          "characterOffsetEnd": 45,
+          "pos": "TO",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 10,
+          "word": "eat",
+          "originalText": "eat",
+          "lemma": "eat",
+          "characterOffsetBegin": 46,
+          "characterOffsetEnd": 49,
+          "pos": "VB",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 11,
+          "word": "good",
+          "originalText": "good",
+          "lemma": "good",
+          "characterOffsetBegin": 50,
+          "characterOffsetEnd": 54,
+          "pos": "JJ",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 12,
+          "word": "food",
+          "originalText": "food",
+          "lemma": "food",
+          "characterOffsetBegin": 55,
+          "characterOffsetEnd": 59,
+          "pos": "NN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 13,
+          "word": "for",
+          "originalText": "for",
+          "lemma": "for",
+          "characterOffsetBegin": 60,
+          "characterOffsetEnd": 63,
+          "pos": "IN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 14,
+          "word": "good",
+          "originalText": "good",
+          "lemma": "good",
+          "characterOffsetBegin": 64,
+          "characterOffsetEnd": 68,
+          "pos": "JJ",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 15,
+          "word": "prices",
+          "originalText": "prices",
+          "lemma": "price",
+          "characterOffsetBegin": 69,
+          "characterOffsetEnd": 75,
+          "pos": "NNS",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 16,
+          "word": "compared",
+          "originalText": "compared",
+          "lemma": "compare",
+          "characterOffsetBegin": 76,
+          "characterOffsetEnd": 84,
+          "pos": "VBN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 17,
+          "word": "to",
+          "originalText": "to",
+          "lemma": "to",
+          "characterOffsetBegin": 85,
+          "characterOffsetEnd": 87,
+          "pos": "TO",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 18,
+          "word": "being",
+          "originalText": "being",
+          "lemma": "be",
+          "characterOffsetBegin": 88,
+          "characterOffsetEnd": 93,
+          "pos": "VBG",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 19,
+          "word": "lazy",
+          "originalText": "lazy",
+          "lemma": "lazy",
+          "characterOffsetBegin": 94,
+          "characterOffsetEnd": 98,
+          "pos": "JJ",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 20,
+          "word": "eating",
+          "originalText": "eating",
+          "lemma": "eating",
+          "characterOffsetBegin": 99,
+          "characterOffsetEnd": 105,
+          "pos": "NN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 21,
+          "word": "on",
+          "originalText": "on",
+          "lemma": "on",
+          "characterOffsetBegin": 106,
+          "characterOffsetEnd": 108,
+          "pos": "IN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 22,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 109,
+          "characterOffsetEnd": 112,
+          "pos": "DT",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 23,
+          "word": "strip",
+          "originalText": "strip",
+          "lemma": "strip",
+          "characterOffsetBegin": 113,
+          "characterOffsetEnd": 118,
+          "pos": "NN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 24,
+          "word": "or",
+          "originalText": "or",
+          "lemma": "or",
+          "characterOffsetBegin": 119,
+          "characterOffsetEnd": 121,
+          "pos": "CC",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 25,
+          "word": "in",
+          "originalText": "in",
+          "lemma": "in",
+          "characterOffsetBegin": 122,
+          "characterOffsetEnd": 124,
+          "pos": "IN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 26,
+          "word": "your",
+          "originalText": "your",
+          "lemma": "you",
+          "characterOffsetBegin": 125,
+          "characterOffsetEnd": 129,
+          "pos": "PRP$",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 27,
+          "word": "hotel",
+          "originalText": "hotel",
+          "lemma": "hotel",
+          "characterOffsetBegin": 130,
+          "characterOffsetEnd": 135,
+          "pos": "NN",
+          "ner": "O",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 28,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 135,
+          "characterOffsetEnd": 136,
+          "pos": ".",
+          "ner": "O",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "parse": "(ROOT\n  (NP\n    (NP (JJ nice) (JJ casual) (JJ trendy) (NN place))\n    (, ,)\n    (NP (JJ good) (NN service))\n    (. .)))",
+      "basicDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "place"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "place",
+          "dependent": 1,
+          "dependentGloss": "nice"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "place",
+          "dependent": 2,
+          "dependentGloss": "casual"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "place",
+          "dependent": 3,
+          "dependentGloss": "trendy"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "place",
+          "dependent": 5,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "amod",
+          "governor": 7,
+          "governorGloss": "service",
+          "dependent": 6,
+          "dependentGloss": "good"
+        },
+        {
+          "dep": "appos",
+          "governor": 4,
+          "governorGloss": "place",
+          "dependent": 7,
+          "dependentGloss": "service"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "place",
+          "dependent": 8,
+          "dependentGloss": "."
+        }
+      ],
+      "enhancedDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "place"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "place",
+          "dependent": 1,
+          "dependentGloss": "nice"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "place",
+          "dependent": 2,
+          "dependentGloss": "casual"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "place",
+          "dependent": 3,
+          "dependentGloss": "trendy"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "place",
+          "dependent": 5,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "amod",
+          "governor": 7,
+          "governorGloss": "service",
+          "dependent": 6,
+          "dependentGloss": "good"
+        },
+        {
+          "dep": "appos",
+          "governor": 4,
+          "governorGloss": "place",
+          "dependent": 7,
+          "dependentGloss": "service"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "place",
+          "dependent": 8,
+          "dependentGloss": "."
+        }
+      ],
+      "enhancedPlusPlusDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "place"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "place",
+          "dependent": 1,
+          "dependentGloss": "nice"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "place",
+          "dependent": 2,
+          "dependentGloss": "casual"
+        },
+        {
+          "dep": "amod",
+          "governor": 4,
+          "governorGloss": "place",
+          "dependent": 3,
+          "dependentGloss": "trendy"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "place",
+          "dependent": 5,
+          "dependentGloss": ","
+        },
+        {
+          "dep": "amod",
+          "governor": 7,
+          "governorGloss": "service",
+          "dependent": 6,
+          "dependentGloss": "good"
+        },
+        {
+          "dep": "appos",
+          "governor": 4,
+          "governorGloss": "place",
+          "dependent": 7,
+          "dependentGloss": "service"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "place",
+          "dependent": 8,
+          "dependentGloss": "."
+        }
+      ],
+      "sentimentValue": "3",
+      "sentiment": "Positive",
+      "tokens": [
+        {
+          "index": 1,
+          "word": "nice",
+          "originalText": "nice",
+          "lemma": "nice",
+          "characterOffsetBegin": 137,
+          "characterOffsetEnd": 141,
+          "pos": "JJ",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "casual",
+          "originalText": "casual",
+          "lemma": "casual",
+          "characterOffsetBegin": 142,
+          "characterOffsetEnd": 148,
+          "pos": "JJ",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "trendy",
+          "originalText": "trendy",
+          "lemma": "trendy",
+          "characterOffsetBegin": 149,
+          "characterOffsetEnd": 155,
+          "pos": "JJ",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "place",
+          "originalText": "place",
+          "lemma": "place",
+          "characterOffsetBegin": 156,
+          "characterOffsetEnd": 161,
+          "pos": "NN",
+          "ner": "O",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 5,
+          "word": ",",
+          "originalText": ",",
+          "lemma": ",",
+          "characterOffsetBegin": 161,
+          "characterOffsetEnd": 162,
+          "pos": ",",
+          "ner": "O",
+          "before": "",
+          "after": " "
+        },
+        {
+          "index": 6,
+          "word": "good",
+          "originalText": "good",
+          "lemma": "good",
+          "characterOffsetBegin": 163,
+          "characterOffsetEnd": 167,
+          "pos": "JJ",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 7,
+          "word": "service",
+          "originalText": "service",
+          "lemma": "service",
+          "characterOffsetBegin": 168,
+          "characterOffsetEnd": 175,
+          "pos": "NN",
+          "ner": "O",
+          "before": " ",
+          "after": ""
+        },
+        {
+          "index": 8,
+          "word": ".",
+          "originalText": ".",
+          "lemma": ".",
+          "characterOffsetBegin": 175,
+          "characterOffsetEnd": 176,
+          "pos": ".",
+          "ner": "O",
+          "before": "",
+          "after": " "
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "parse": "(ROOT\n  (FRAG\n    (PP (IN worth)\n      (NP (DT the) (NN cab) (NN drive)))\n    (. !)))",
+      "basicDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "drive"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "drive",
+          "dependent": 1,
+          "dependentGloss": "worth"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "drive",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 4,
+          "governorGloss": "drive",
+          "dependent": 3,
+          "dependentGloss": "cab"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "drive",
+          "dependent": 5,
+          "dependentGloss": "!"
+        }
+      ],
+      "enhancedDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "drive"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "drive",
+          "dependent": 1,
+          "dependentGloss": "worth"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "drive",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 4,
+          "governorGloss": "drive",
+          "dependent": 3,
+          "dependentGloss": "cab"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "drive",
+          "dependent": 5,
+          "dependentGloss": "!"
+        }
+      ],
+      "enhancedPlusPlusDependencies": [
+        {
+          "dep": "ROOT",
+          "governor": 0,
+          "governorGloss": "ROOT",
+          "dependent": 4,
+          "dependentGloss": "drive"
+        },
+        {
+          "dep": "case",
+          "governor": 4,
+          "governorGloss": "drive",
+          "dependent": 1,
+          "dependentGloss": "worth"
+        },
+        {
+          "dep": "det",
+          "governor": 4,
+          "governorGloss": "drive",
+          "dependent": 2,
+          "dependentGloss": "the"
+        },
+        {
+          "dep": "compound",
+          "governor": 4,
+          "governorGloss": "drive",
+          "dependent": 3,
+          "dependentGloss": "cab"
+        },
+        {
+          "dep": "punct",
+          "governor": 4,
+          "governorGloss": "drive",
+          "dependent": 5,
+          "dependentGloss": "!"
+        }
+      ],
+      "sentimentValue": "3",
+      "sentiment": "Positive",
+      "tokens": [
+        {
+          "index": 1,
+          "word": "worth",
+          "originalText": "worth",
+          "lemma": "worth",
+          "characterOffsetBegin": 177,
+          "characterOffsetEnd": 182,
+          "pos": "IN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 2,
+          "word": "the",
+          "originalText": "the",
+          "lemma": "the",
+          "characterOffsetBegin": 183,
+          "characterOffsetEnd": 186,
+          "pos": "DT",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 3,
+          "word": "cab",
+          "originalText": "cab",
+          "lemma": "cab",
+          "characterOffsetBegin": 187,
+          "characterOffsetEnd": 190,
+          "pos": "NN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 4,
+          "word": "drive",
+          "originalText": "drive",
+          "lemma": "drive",
+          "characterOffsetBegin": 191,
+          "characterOffsetEnd": 196,
+          "pos": "NN",
+          "ner": "O",
+          "before": " ",
+          "after": " "
+        },
+        {
+          "index": 5,
+          "word": "!",
+          "originalText": "!",
+          "lemma": "!",
+          "characterOffsetBegin": 197,
+          "characterOffsetEnd": 198,
+          "pos": ".",
+          "ner": "O",
+          "before": " ",
+          "after": ""
+        }
+      ]
+    }
+  ]
+}
